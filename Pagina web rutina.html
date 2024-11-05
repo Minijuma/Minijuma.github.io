@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutina de Ejercicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f8ff; /* Fondo azul claro */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+            box-sizing: border-box;
+            role: "main";
+        }
+
+        h1 {
+            text-align: center;
+            color: #005f99; /* Azul oscuro */
+        }
+
+        h2 {
+            color: #007acc; /* Azul intermedio */
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background-color: #e6f7ff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease-in-out;
+        }
+
+        ul li:hover {
+            background-color: #d4eefb;
+            transform: scale(1.02);
+        }
+
+        li strong {
+            color: #005f99;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        /* Responsividad */
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            h1, h2 {
+                font-size: 1.5em;
+            }
+
+            p, li {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" aria-label="Rutina de Ejercicio">
+        <h1>Rutina de Ejercicio (30 minutos)</h1>
+        <p>Esta sesión combina cardio, fuerza, y flexibilidad para mantener tu condición física. Perfecta para el día a día, sin necesidad de equipo especial.</p>
+
+        <h2>1. Calentamiento (5 minutos)</h2>
+        <ul aria-label="Lista de ejercicios de calentamiento">
+            <li><strong>Marcha en el lugar</strong>: 2 minutos</li>
+            <li><strong>Rotaciones de brazos</strong>: 1 minuto (30 segundos hacia adelante y 30 segundos hacia atrás)</li>
+            <li><strong>Elevaciones de rodillas</strong>: 2 minutos</li>
+        </ul>
+
+        <h2>2. Circuito Principal (20 minutos)</h2>
+        <p>Realiza el siguiente circuito 3 veces, descansando 1 minuto entre cada ronda.</p>
+        <ul aria-label="Lista de ejercicios del circuito principal">
+            <li><strong>Sentadillas (Bodyweight Squats)</strong>: 15 repeticiones</li>
+            <li><strong>Flexiones de pecho (Push-Ups)</strong>: 10-15 repeticiones (puedes hacerlas con las rodillas apoyadas si es necesario)</li>
+            <li><strong>Zancadas (Lunges)</strong>: 12 repeticiones por pierna</li>
+            <li><strong>Plancha (Plank)</strong>: 30 segundos</li>
+            <li><strong>Jumping Jacks</strong>: 30 segundos</li>
+        </ul>
+
+        <h2>3. Enfriamiento (5 minutos)</h2>
+        <ul aria-label="Lista de ejercicios de enfriamiento">
+            <li><strong>Estiramiento de cuádriceps</strong>: 30 segundos por pierna</li>
+            <li><strong>Estiramiento de hombros</strong>: 30 segundos por brazo</li>
+            <li><strong>Estiramiento de isquiotibiales</strong>: 1 minuto</li>
+            <li><strong>Respiración profunda y estiramiento de brazos hacia arriba</strong>: 1 minuto</li>
+        </ul>
+
+        <p>Escucha a tu cuerpo y ajusta la intensidad según lo necesites. Esta rutina es accesible para distintos niveles de condición física, mejorando fuerza, resistencia y flexibilidad.</p>
+    </div>
+
+</body>
+</html
